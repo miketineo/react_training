@@ -7,7 +7,7 @@ class Main extends React.Component {
 }
 
 let documentReady = () => {
-  React.render(
+  ReactDOM.render(
     <Main />,
     document.getElementById('react')
   );
