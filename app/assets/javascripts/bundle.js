@@ -77,7 +77,7 @@
 	
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Main).call(this, props));
 	
-	    _this.state = { tweetList: mockTweets };
+	    _this.state = { tweetsList: mockTweets };
 	    return _this;
 	  }
 	
